@@ -1,25 +1,28 @@
-###> Josee9988/project-template ###
+###> Portable Malware Scanner ###
 
-##### Folders #####
-build/
-dist/
+# Rust
+target/
+**/*.rs.bk
+
+# Node.js
 node_modules/
-vendor/
-var/
-.tmp/
+**/node_modules/
+dist/
+build/
+.env
 
-# IDE's
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# IDEs
 .vscode/
 .idea/
+*.swp
 
-
-##### Files #####
-ignore.*
-*.ignore.*
-
-# Environment variables and secret keys
-.env
-.env.test
-*.pem
-
-###< Josee9988/project-template ###
+# Misc
+.DS_Store
